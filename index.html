@@ -17,7 +17,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js" integrity="sha384-3ziFidFTgxJXHMDttyPJKDuTlmxJlwbSkojudK/CkRqKDOmeSbN6KLrGdrBQnT2n" crossorigin="anonymous"></script>
-
+    <script src="static/js/more.js"></script>
     <link rel="stylesheet" href="./showMeTheMoney.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
@@ -99,9 +99,25 @@
         <p>실무 2년 차 개발자로서의 경험을 쌓아가고 있습니다. Java, Spring 4, RESTFul API, JavaScript, Vue.js, ElasticStack등을 사용하여 솔루션 개발, 운영업무를 맡고 있습니다.</p>
 
         <p>중학교부터 게임 개발에 관심이 생겨 프로그래밍에 입문했고, 게임개발 외 7년째 다양한 프로그래밍 공부를 하고 있습니다. 모바일, 윈도우즈, 웹 등 다양한 플랫폼 어플리케이션 개발에 지속적으로 관심을 갖고 실제 개발을 하면서, 플랫폼의 자유를 꿈꾸고 있습니다.
-          플랫폼의 자유를 위해 각각 크로스 플랫폼상에서 GUI와 Native Code개발에 강점이 있는 JavaScript와 Go에 관심을 갖고, 이해도를 높이기위한 사이드 프로젝트를 진행하고 있습니다.
+          플랫폼의 자유를 위해 멀티 플랫폼상에서 GUI와 Native Code개발에 강점이 있는 JavaScript와 Go에 관심을 갖고, 이해도를 높이기위한 사이드 프로젝트를 진행하고 있습니다.
           뿐만아니라 빠르게 변화하는 IT신기술 트렌드 흐름을 파악하고, 새로운 기술에 흥미를 갖고 그 기술을 이용한 개발을 즐기고 있습니다. 
           다양한 기술을 학습하고 부족한 점을 찾으며, 때론 먼곳으로 돌아가면서 개발자로서 발전하기 위해 노력하고 있습니다.</p>
+          <span class="more">
+              <span class="blind">더보기 V</span>
+          </span>
+          <div class="board">
+              <p>
+                대학교를 다니면서 온라인 서점에서 프리랜서 개발자로서 일하기 시작했습니다. 전임 개발자가 남겨둔 숙제인 기존 홈페이지와 신규 Ebook서버를 연동하는 작업을 시작으로
+                상품관리, 재고관리, 매출 관리, 사용자 관리, DM발송, 명세서 리포트 관리 툴 개발, 아마존 상품 & 가격 크롤링 배치, 기존 관리 웹에서 배치를 이용한 상품 등록 간편화 & 상품 블로그(Tistory) 등록
+                자동화 기능을 추가 개발했습니다.
+              </p>
+              <p>
+                프리랜서 개발 경험을 바탕으로 개인 정보 접속기록 관리 설루션 업체에 산업기능요원으로 근무하게 되었습니다. 기존 설루션의 메이저 업데이트라고 하지만 JSP/Servlet만 사용하는 레거시 한 구조에서
+                Spring4를 도입한 신규 개발 프로젝트에 투입되었습니다. Rest API interface 문서를 바탕으로 모든 Rest API function을 구현했고, filter와 interceptor로 설루션 사용자 행위 로킹 자동화
+                기능을 개발했고 Vue.js로 사용자 관리, 설루션 관리, 설정 관리 등 관리 페이지 개발, 설루션의 핵심 기능인 어떠한 사용자가 개인 정보를 많이 사용했고, 위험한가를 판단하는 기능을 기획하고, 
+                ElasticSearch 기반 분석으로 개발했습니다.
+              </p>
+          </div>
         </div>
       </div>
       <!-- Introduce End -->
@@ -443,19 +459,19 @@
                   <i class="gray">WEEDS DNS KOREA</i>
                   <ul class="pt-3">
                     <li>
-                      Spring4 + Mybatis + PostgreSQL 기반 RESTFul API Back-End 서버 개발
+                      Spring4 + Mybatis + PostgreSQL기반 관리 서비스 RESTFul API Back-End 서버 개발
                     </li>
                     <li>
                       Spring custom annotation + AOP + Ehcache를 이용한 커스텀 캐싱 ( 캐싱 키값을 커스텀 하기 위해 )
                     </li>
                     <li>
-                      Spring - ElasticSearch 연동 API Service 개발
+                      Spring - ElasticSearch 연동 대량 로그 테이터 처리 API Service 개발
                     </li>
                     <li>
                       Spring Boot Batch + scheduler+ Elasticsearch + Postgresql기반 통계 batch job 개발 
                     </li>
                     <li>
-                      Vue.js를 이용한 Front-End 개발 & d3.js를 이용한 다양한 차트 구현
+                      Vue.js를 이용한 Front-End 개발 & d3.js를 이용한 데이터 보드구현
                     </li>
                     <li>
                       ElasticStack을 이용한 Linux 서버 인프라 구축
@@ -478,10 +494,10 @@
                   <i class="gray">WEEDS DNS KOREA</i>
                   <ul class="pt-3">
                     <li>
-                      Spring Boot를 이용한 설문조사 API Server개발
+                      Spring Boot를 이용한 커스텀 가능한 설문조사 API Server개발
                     </li>
                     <li>
-                      Vue.js를 이용한 Front-End 개발
+                      Vue.js를 이용한 웹앱 Front-End 개발
                     </li>
                   </ul>
                 </div>
